@@ -91,8 +91,7 @@ h1 {
   padding: 30px;
   border-radius: 10px;
 }
-.card:nth-child(2) {
-  
+.card:nth-child(2) {  
   margin-top: 25px;
 }
 .card:nth-child(3) {
@@ -141,7 +140,17 @@ h1 {
   }
   h1,
   #presentation {
-    text-align: center;
+    margin: auto;
+  }
+  h1 {
+    width: 70%;
+  }
+  #presentation {
+    margin-top: 20px;
+    width: 80%;
+  }
+  #comments {
+    margin: auto;
   }
   #stars_reviews,
   #stars_report,
@@ -150,6 +159,19 @@ h1 {
     margin: 10px;
     flex-direction: column;
     align-items: center;
+  }
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px 60px;
+  }
+  .stars:nth-child(1),
+  .stars:nth-child(2),
+  .stars:nth-child(3) {
+    margin-left: 0px;
   }
   .icone_stars {
     margin-bottom: 10px;
